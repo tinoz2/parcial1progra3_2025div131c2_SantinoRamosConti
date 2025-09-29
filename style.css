@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.alumno-info {
+    display: flex;
+    align-items: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.btn {
+    background-color: green;
+}
+
+.boton-eliminar {
+    background-color: red;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    margin-inline: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-carrito {
+    margin-top: 2rem;
+}
+
+.carrito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin: auto;
+    width: 700px;
+}
+
+.bloque-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.bloque-item span {
+    flex: 1;
+    text-align: left;
+}
+
+#total {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 22px;
+}
